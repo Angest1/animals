@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:backgroundTint="@color/teal_200"
+    tools:context=".DetalleActivity">
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="668dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="572dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtID" />
+
+    <EditText
+        android:id="@+id/txtTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="516dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Tipo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <EditText
+        android:id="@+id/txtZona"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Zona"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTipo"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/txtAlimentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Alimentacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtZona"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <EditText
+        android:id="@+id/txtReproduccion"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Reproduccion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAlimentacion"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <EditText
+        android:id="@+id/txtEspecifico"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Especifico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtReproduccion"
+        app:layout_constraintVertical_bias="0.149" />
+</androidx.constraintlayout.widget.ConstraintLayout>
