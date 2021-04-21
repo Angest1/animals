@@ -29,6 +29,9 @@ public class DetalleActivity extends AppCompatActivity {
         txtReproduccionA = findViewById(R.id.txtReproduccion);
         txtEspecificoA = findViewById(R.id.txtEspecifico);
 
+        hola = "jelou";
+        mundo = "world";
+
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
 
